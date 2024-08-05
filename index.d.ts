@@ -1,4 +1,4 @@
-declare module 'tbClient' {
+declare module 'thingsboard-js-sdk'  {
     export interface Config {
         host: string;
         token?: string;
