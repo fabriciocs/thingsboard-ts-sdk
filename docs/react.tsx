@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { tbClient, TelemetryData } from 'thingsboard-js-sdk';
+import tbClient, { TelemetryData } from 'thingsboard-js-sdk';
 
 //tb server config
 const config = {

@@ -1,5 +1,5 @@
  
-import { tbClient, Device, TelemetryData } from 'thingsboard-js-sdk';
+import tbClient, { Device, TelemetryData } from 'thingsboard-js-sdk';
 
 //tb server config
 const config = {
