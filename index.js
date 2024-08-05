@@ -1,6 +1,6 @@
 const jwt = require('jwt-decode').default;
 
-const api = (host, token = null) => {
+export const api = (host, token = null) => {
     return {
         post: async (url, data) => {
             try {
@@ -36,7 +36,7 @@ const api = (host, token = null) => {
     };
 };
 
-class tbClient {
+export class tbClient {
     constructor(config) {
         this.config = config;
         this.token = config.token || null;
@@ -209,4 +209,4 @@ class tbClient {
     }
 }
 
-module.exports = tbClient;
+module = tbClient;

@@ -24,7 +24,7 @@ declare module 'thingsboard-js-sdk'  {
         [key: string]: any;
     }
 
-    export class tbClient {
+    export default class tbClient {
         constructor(config: Config);
         connect(isPublic?: boolean): Promise<ConnectResult | null>;
         disconnect(): null;
